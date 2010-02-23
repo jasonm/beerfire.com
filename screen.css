@@ -16,8 +16,26 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   background: transparent;
 }
 
+a {
+  color: #fff;
+}
+
 body {
   background-color: #330e00;
+  font-family: Helvetica, Arial, Sans-serif;
+  color: #fff;
+  line-height: 1.5em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 h1 span {
@@ -25,11 +43,51 @@ h1 span {
 }
 
 h1 {
-  width: 1200px;
-  height: 1200px;
+  width: 600px;
+  height: 600px;
   background-image: url('splash-page.png');
-  background-position: 0 -200px;
+  background-position: 0 -100px;
   background-repeat: no-repeat;
   margin: 0 auto;
-  padding-bottom: 1200px;
+}
+
+div#body {
+  position: relative;
+  top: -310px;
+  width: 600px;
+  margin: 0 auto;
+  background-color: #330e00;
+  padding: 2em;
+  filter:alpha(opacity=80);
+  opacity: 0.80;
+  -moz-opacity:0.80;
+}
+
+
+label {
+  width: 48%;
+  float: left;
+}
+
+input.ss-q-short {
+  width: 288px;
+  float: right;
+}
+
+.ss-item {
+  clear: both;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+ul.ss-choices {
+  list-style: none;
+}
+
+input[type=submit] {
+  margin-top: 
+  height: 1.5em;
+  font-size: 1.5em;
+  width: 49%;
+  float: right;
 }
