@@ -91,3 +91,7 @@ input[type=submit] {
   width: 49%;
   float: right;
 }
+
+.ss-terms, .ss-powered-by {
+  font-size: 75%;
+}
